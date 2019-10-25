@@ -1,0 +1,12 @@
+{
+    "1" : {
+        "name" : "Ta mere elle est tellement gross que Thanos il a besoin de claquer des doigts 2 fois",
+        "type" : "ta mere",
+        "degats" : 45,
+        "cout" : 30
+    },
+
+    "2" : {
+        "name" : ""
+    }
+}
