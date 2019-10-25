@@ -1,0 +1,19 @@
+{
+  "name": "one-punch-line",
+  "version": "1.0.0",
+  "description": "the best game ever",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandydn/One-Punch-Line.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sandydn/One-Punch-Line/issues"
+  },
+  "homepage": "https://github.com/sandydn/One-Punch-Line#readme"
+}
