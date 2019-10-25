@@ -1,0 +1,13 @@
+{
+    "cartman" : {
+        "name" : "Cartman",
+        "type" : "Raciste",
+        "pv" : 150,
+        "mana" : 200,
+        "deck" : [23, 54, 12, 9]
+    },
+
+    "zemmour" : {
+        
+    }
+}
