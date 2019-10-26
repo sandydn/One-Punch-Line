@@ -1,10 +1,10 @@
 import React from 'react'
 
 
-function Button({handleClick}) {
+function Button({handleClick, value}) {
     return (
         <div>
-            <button onClick={handleClick}></button>
+            <button >{handleClick(value)}</button>
         </div>
     )
 }
