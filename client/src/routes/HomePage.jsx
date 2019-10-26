@@ -1,9 +1,16 @@
 import React from 'react'
+import {NavLink} from 'react-router-dom'
+import Button from '../charter/Button'
 
-function HomePage() {
+const HomePage = () => {
+
+    const startGame = (value) => <NavLink to="/fight" >{value}</NavLink>
+
+
     return (
         <div>
-            <h1>HomePage</h1>
+            <h1>One Punch Line</h1>
+            <Button handleClick={startGame} value={'New Game'}/>
         </div>
     )
 } 
