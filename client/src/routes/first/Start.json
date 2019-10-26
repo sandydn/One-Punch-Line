@@ -28,17 +28,12 @@
     "questions": []
   },
   {
-    "id": "bisou",
-    "text": "louloulou je ceuille des pommes louloulou",
-    "nextId": "BIT",
-    "goFight": "/fight",
-    "questions": []
-  },
-  {
-    "id": "BITE",
-    "text": "le path de la BIIIITEE!",
+    "id": "letter",
+    "text": "\"Cher progéniture, a la fin de cette lettre ta perception de cet univers sera changer. Ce que je t’offre aujourd’hui est une porte vers la gloire. Ce que je t’offre aujourd’hui c’est une opportunité de rejoindre les plus grands. Ce que je t’offre aujourd’hui c’est le secret de la One-Punch-Line. Lis moi bien, progéniture. Pour prétendre a cette destinée tu devras embrasser la voie du Punchliner. Tu dois maitriser l’art de la destruction verbal, car seulement a ce moment tu sera digne de la One-Punch-Line.\" ",
     "nextId": null,
     "goFight": "/fight",
-    "questions": []
+    "questions": [
+      {"value": "\"Qu'est ce que putain de quoi?\" Tu as pas le temps pour ces conneries, avec un peu de chance tu peux encore avoir le bus.", "nextId": "getOut"}
+    ]
   }
 ]
