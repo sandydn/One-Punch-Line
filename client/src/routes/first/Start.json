@@ -6,15 +6,19 @@
     "goFight": "/fight",
     "questions": [
       { "value": "Tu t’enerves et gueule  \"PUTAIN !\"", "nextId": "breakfast" },
-      { "value": "Tu balances la chaise par la fenetre \"Ca t’apprendra connasse\"", "nextId": "breakfast" }
+      { "value": "Tu balances la chaise par la fenetre \"Ca t’apprendra connasse\"", "nextId": "breakfast" },
+      { "value": "Tu restes stoique", "nextId": "breakfast"}
     ]
   },
   {
-    "id": "ZOB",
-    "text": "ahahahhahahahahahhahahahahhahahahhahahahahah",
+    "id": "breakfast",
+    "text": "Tu as la dalle, direction le refectoire. T’attrape un bout de pain et un bannane. Au moment de sortir tu entend un *sszzzaaaaaaap* tu te retournes et appercoit une enveloppe sur la table. Ton nom y est inscrit.",
     "nextId": "bisou",
     "goFight": "/fight",
-    "questions": []
+    "questions": [
+      { "value": "Pas le jour pour être encore en retard. tu prend la lettre et sors prendre le bus.", "nextId": "getOut"},
+      { "value": "Tu as jamais pus encadre le prof de francais de toute façon. Tu prend un chaise, bois a la bouteille de lait et ouvre la lettre", "nextId": "letter"}
+    ]
   },
   {
     "id": "poulet",
