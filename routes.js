@@ -4,6 +4,8 @@ const bodyParser = require('body-parser');
 const characters = require('./characters.json');
 const punchlines = require('./punchlines.json');
 
+const fight = require('./functions/fight');
+
 router.use(bodyParser.json());
 router.use(bodyParser.urlencoded({ extended: true }));
 
@@ -24,5 +26,8 @@ router.get('/punchline', (req, res) => {
 })
 
 // FIGHT
+router.post('/fight', (req, res) => {
+  res.json(fight(req.body.pj, req.body.pnj, req.body.pnjAttq));
+})
 
 module.exports = router;

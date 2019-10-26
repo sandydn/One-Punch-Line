@@ -8,7 +8,31 @@
     {
         "name" : "Ta mere elle est tellement gross que Thanos il a besoin de claquer des doigts 2 fois",
         "type" : "ta mere",
-        "damages" : 45,
-        "cost" : 30
+        "damages" : 27,
+        "cost" : 33
+    },
+    {
+        "name" : "test1",
+        "type" : "ta mere",
+        "damages" : 10,
+        "cost" : 12
+    },
+    {
+        "name" : "test2",
+        "type" : "raciste",
+        "damages" : 10,
+        "cost" : 12
+    },
+    {
+        "name" : "test3",
+        "type" : "wtf",
+        "damages" : 10,
+        "cost" : 12
+    },
+    {
+        "name" : "test4",
+        "type" : "cul",
+        "damages" : 10,
+        "cost" : 12
     }
 ]
