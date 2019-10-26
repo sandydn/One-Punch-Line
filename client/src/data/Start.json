@@ -3,6 +3,7 @@
     "id": "la quete",
     "text": "le premier texte est celui la lalalalalallalallalalalal",
     "nextId": null,
+    "goFight": "/fight",
     "questions": [
       { "value": "lalalalalala", "nextId": "ZOB" },
       { "value": "lilolilolilolilolio", "nextId": "poulet" }
@@ -12,21 +13,31 @@
     "id": "ZOB",
     "text": "ahahahhahahahahahhahahahahhahahahhahahahahah",
     "nextId": "bisou",
+    "goFight": "/fight",
     "questions": []
   },
   {
     "id": "poulet",
     "text": "lalalilaloulalalilaloulalalilaloulalalilalou",
     "nextId": null,
+    "goFight": "/fight",
     "questions": [
       { "value": "heyheyheyhey", "nextId": "bisou" },
-      { "value": "rororororo", "nextId": "BIT" }
+      { "value": "rororororo", "nextId": "BITE" }
     ]
   },
   {
     "id": "bisou",
     "text": "louloulou je ceuille des pommes louloulou",
     "nextId": "BIT",
+    "goFight": "/fight",
+    "questions": []
+  },
+  {
+    "id": "BITE",
+    "text": "le path de la BIIIITEE!",
+    "nextId": null,
+    "goFight": "/fight",
     "questions": []
   }
 ]
