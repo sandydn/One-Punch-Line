@@ -1,10 +1,13 @@
 import React from 'react'
+import {NavLink} from 'react-router-dom'
 
 
-function Button({handleClick, value}) {
+function Button({handleClick, isRedirect, path, value}) {
     return (
         <div>
-            <button >{handleClick(value)}</button>
+            {isRedirect ? 
+            <button> <NavLink to={path} >{value}</NavLink> </button> : 
+            <button onClick={handleClick}  >{value}</button>}
         </div>
     )
 }
