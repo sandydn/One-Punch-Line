@@ -1,7 +1,15 @@
 {
+    "exemple" : {
+        "name" : "Exemple",
+        "type" : "wtf",
+        "pv" : "80-120",
+        "mana" : "100-140",
+        "deck" : []
+    },
+
     "cartman" : {
         "name" : "Cartman",
-        "type" : "Raciste",
+        "type" : "raciste",
         "pv" : 150,
         "mana" : 200,
         "deck" : [23, 54, 12, 9]
