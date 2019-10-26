@@ -5,6 +5,7 @@ import {
   } from "react-router-dom";
 import HomePage from './HomePage';
 import Fight from './Fight';
+import First from './first/Index'
 
 const index = () => {
 	return (
@@ -14,6 +15,9 @@ const index = () => {
       </Route>
       <Route path="/fight">
         <Fight />
+      </Route>
+      <Route path="/first">
+        <First />
       </Route>
     </Switch>
   )
