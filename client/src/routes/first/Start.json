@@ -21,14 +21,11 @@
     ]
   },
   {
-    "id": "poulet",
-    "text": "lalalilaloulalalilaloulalalilaloulalalilalou",
+    "id": "getOut",
+    "text": "Tu enfiles tes chaussures et sort en claquant la porte. Tu passes la grille, capuche sur la tête, c’est pas le moment de te faire chier! \"Hey, face de chèvre !\" Ca vient de derrière. tu sens la rage monter en toi. Celui la, tu vas te le faire.",
     "nextId": null,
     "goFight": "/fight",
-    "questions": [
-      { "value": "heyheyheyhey", "nextId": "bisou" },
-      { "value": "rororororo", "nextId": "BITE" }
-    ]
+    "questions": []
   },
   {
     "id": "bisou",
