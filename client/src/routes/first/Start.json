@@ -1,12 +1,12 @@
 [
   {
-    "id": "la quete",
-    "text": "le premier texte est celui la lalalalalallalallalalalal",
+    "id": "wakeUp",
+    "text": "*tut-tut-tut tut-tut-tut* Tu te réveilles dans ta chambre du foyer. Encore un mardi comme un autre, a la bourre. Tu debranches ton reveil et sors de ton lit. Tu choppes les premiere fringues a porter de mains et tu renverse la chaise sur ton pied.",
     "nextId": null,
     "goFight": "/fight",
     "questions": [
-      { "value": "lalalalalala", "nextId": "ZOB" },
-      { "value": "lilolilolilolilolio", "nextId": "poulet" }
+      { "value": "Tu t’enerves et gueule  \"PUTAIN !\"", "nextId": "breakfast" },
+      { "value": "Tu balances la chaise par la fenetre \"Ca t’apprendra connasse\"", "nextId": "breakfast" }
     ]
   },
   {
