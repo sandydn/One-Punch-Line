@@ -12,8 +12,8 @@
   },
   {
     "id": "breakfast",
-    "text": "Tu as la dalle, direction le refectoire. T’attrape un bout de pain et un bannane. Au moment de sortir tu entend un *sszzzaaaaaaap* tu te retournes et appercoit une enveloppe sur la table. Ton nom y est inscrit.",
-    "nextId": "bisou",
+    "text": "Tu as la dalle, direction le refectoire. T’attrape un bout de pain et un bannane. Au moment de sortir tu entend un *sszzzaaaaaaap* tu te retournes et aperçoit une enveloppe sur la table. Ton nom y est inscrit.",
+    "nextId": null,
     "goFight": "/fight",
     "questions": [
       { "value": "Pas le jour pour être encore en retard. tu prend la lettre et sors prendre le bus.", "nextId": "getOut"},
