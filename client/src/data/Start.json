@@ -1,0 +1,31 @@
+[
+    {
+        "id":"la quete",
+        "text": "le premier texte est celui la lalalalalallalallalalalal",
+        "nextId": null,
+        "questions": [  {"value": "lalalalalala",
+                        "nextId": "ZOB"},
+                        {"value": "lilolilolilolilolio",
+                        "nextId": "poulet"}]
+    },
+    {
+        "id": "ZOB",
+        "text": "ahahahhahahahahahhahahahahhahahahhahahahahah",
+        "nextId": "bisou"
+    },
+    {
+        "id": "poulet",
+        "text": "lalalilaloulalalilaloulalalilaloulalalilalou",
+        "nextId": null,
+        "questions":[  {"value": "heyheyheyhey",
+                        "nextId": "boubou"},
+                       {"value": "rororororo",
+                        "nextId": "BIP"}]
+    },
+    {
+        "id": "bisou",
+        "text": "louloulou je ceuille des pommes louloulou",
+        "nextId": "BIT"
+    }
+
+]
