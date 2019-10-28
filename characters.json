@@ -4,18 +4,25 @@
         "type" : "wtf",
         "pv" : "80-120",
         "mana" : "100-140",
-        "deck" : []
+        "deck" : [],
+        "hand" : []
     },
 
     "cartman" : {
         "name" : "Cartman",
         "type" : "raciste",
-        "pv" : 150,
-        "mana" : 200,
-        "deck" : [23, 54, 12, 9]
+        "pv" : 100,
+        "mana" : 120,
+        "deck" : [23, 54, 12, 9],
+        "hand" : []
     },
 
     "zemmour" : {
-        
+        "name" : "Zemmour",
+        "type" : "raciste",
+        "pv" : 80,
+        "mana" : 115,
+        "deck" : [],
+        "hand" : []
     }
 }
