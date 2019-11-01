@@ -1,0 +1,41 @@
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 200px;
+    font-size: 2em;
+    border-radius: 12px;
+    box-shadow: 2px 2px 8px rgba(35, 35, 35, .6) inset;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.button > a{
+    color: white; 
+    text-decoration: none;
+}
+
+.button > a:visited{
+    color: white;
+}
+
+.button:hover{
+    opacity: .8;
+}
+
+.red{
+    background: red;
+}
+
+.green{
+    background: green;
+}
+
+.blue{
+    background: blue;
+}
+
+.undefined{
+    background: darkgrey;
+}
