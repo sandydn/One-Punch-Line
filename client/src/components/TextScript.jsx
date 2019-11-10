@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import Button from '../charter/Button'
 
-export default class TextScript extends Component<Props> {
+export default class TextScript extends Component{
   state = {
     data: this.props.data,
     page: this.props.data[0],
@@ -27,13 +27,12 @@ export default class TextScript extends Component<Props> {
         <h3>{text}</h3>
         {isLoad
           ? questions.map(question => (
-            <input
-              type="submit"
-              value={question.value}
-              onClick={() => this.getNextId(question.nextId)}
-            />
+            <Button color={'blue'} 
+                    handleClick={() => this.getNextId(question.nextId)} 
+                    value={question.value} 
+                    isRedirect={false}/>
           ))
-          : <Button value={'FIGHT !'} path={goFight} isRedirect/>}
+          : <Button color={'red'} value={'FIGHT !'} path={goFight} isRedirect/>}
       </div>
     )
   }

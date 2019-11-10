@@ -1,13 +1,16 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom'
 
+import './Buttons.css'
 
-function Button({handleClick, isRedirect, path, value}) {
+function Button({color, handleClick, isRedirect, path, value}) {
+    const buttonClass = `button ${color}`
+
     return (
         <div>
             {isRedirect ? 
-            <button> <NavLink to={path} >{value}</NavLink> </button> : 
-            <button onClick={handleClick}  >{value}</button>}
+            <div className={buttonClass}> <NavLink to={path} >{value}</NavLink> </div> : 
+            <div className={buttonClass} onClick={handleClick}><p>{value}</p></div>}
         </div>
     )
 }
