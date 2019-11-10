@@ -1,0 +1,17 @@
+.layout{
+    background-color: blue;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 15vw 15vw 20vw 20vw 15vw 15vw;
+    grid-template-rows: 30vh 20vh 10vh 40vh;
+    grid-template-areas: "enemy enemy enemy enemy enemy enemy"
+        ". text text text text ."
+        ". text text text text ."
+        "fighter fighter fighter fighter fighter fighter"
+}
+
+.text{
+    background-color: wheat;
+    grid-area: text;
+}
+

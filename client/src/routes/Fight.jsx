@@ -1,9 +1,10 @@
 import React from 'react'
+import Layout from '../components/Fight/Layout'
 
 const Fight = () => {
     return (
         <div>
-            <h1>Fight</h1>
+            <Layout />
         </div>
     )
 } 

@@ -3,7 +3,7 @@ import {NavLink} from 'react-router-dom'
 
 import './Buttons.css'
 
-function Button({color, handleClick, isRedirect, path, value}) {
+function Button({color, handleClick, isRedirect, path, value, size}) {
     const buttonClass = `button ${color}`
 
     return (

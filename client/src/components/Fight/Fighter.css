@@ -1,0 +1,56 @@
+.enemy{
+    background-color: chartreuse;
+    grid-area: enemy;
+    display: flex;
+    align-items: center;
+}
+
+.fighter{
+    background-color: crimson;
+    grid-area: fighter;
+    display: flex;
+}
+
+.profil{
+    background-color: brown;
+    width: 32vw;
+}
+
+.picture{
+    background-image: url('https://mgl.skyrock.net/big.37011235.jpg?41580524');
+    height: 20vh;
+    width: 24vw
+}
+
+.name{
+    background-color: yellow;
+    height: 4vh;
+    width: 26vw;
+    margin-left: 2vw;
+}
+
+.pv{
+    background-color: black;
+    display: flex;
+    height: 10vh;
+    width: 68vw;
+}
+
+.attacks{
+    background-color: cornflowerblue;
+    height: 30vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.life{
+    height: 100%;
+    width: 50%;
+    background-color: red;
+}
+
+.mana{
+    height: 100%;
+    width: 50%;
+    background-color: royalblue;
+}
